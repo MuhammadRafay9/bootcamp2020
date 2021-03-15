@@ -35,4 +35,4 @@ jobs:
       - name: installing surge
         run: npm -g surge
       - name: deploying using surge
-        run: surge./ checcck.surge.sh --token $ {{ secrets.surge_token }}
+        run: surge ./ checcck.surge.sh --token $ {{ secrets.surge_token }}
